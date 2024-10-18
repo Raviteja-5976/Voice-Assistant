@@ -42,7 +42,7 @@ def send_email(email_address, subject, message):
         server.starttls()
         # Replace with your email and password
         sender_email = 'raviteja.gdsc@gmail.com'
-        sender_password = 'ufxd ytiw ampu ymtx'
+        sender_password = 'Password'
         server.login(sender_email, sender_password)
         email = EmailMessage()
         email['From'] = sender_email
